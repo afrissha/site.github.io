@@ -24,7 +24,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('background.jpg'); /* Replace with your actual image path */
+    background-image: url('img/background.jpg'); /* Replace with your actual image path */
     background-size: cover;
     background-position: center;
     filter: blur(10px);
