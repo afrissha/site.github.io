@@ -681,5 +681,20 @@
   </script>
   <script src="script.js">
   </script>
+
+<script>
+    const wrapper = document.querySelector('.reels-wrapper');
+    const nextBtn = document.querySelector('.slider-btn.next');
+    const prevBtn = document.querySelector('.slider-btn.prev');
+  
+    nextBtn.addEventListener('click', () => {
+      wrapper.scrollBy({ left: wrapper.clientWidth / 1.1, behavior: 'smooth' });
+    });
+  
+    prevBtn.addEventListener('click', () => {
+      wrapper.scrollBy({ left: -wrapper.clientWidth / 1.1, behavior: 'smooth' });
+    });
+  </script>
+
  </body>
 </html>
